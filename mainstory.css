@@ -29,7 +29,8 @@ margin: 0;
 }
 
 h1 {
-  color: white;
+  position: fixed;
+  color: #fff;
   font-size: 4em;
   text-align: center;
 }
@@ -37,6 +38,8 @@ h1 {
 
 
 .byline1 {
+  position: fixed;
+  bottom: 300px;
   color: #85C1E9;
 }
 
@@ -148,14 +151,39 @@ font-size: 20px;
 line-height: 26px;
 }
 
-#box {
+/*br {
+line-height: 32px;
+}*/
+
+#box1 {
+  position: relative;
+  top: 30px;
   background-color: #85C1E9;
   margin-left: 30px;
-  width: 20vw;
-  height: 20vw;
+  width: 40vw;
+  height: 40vw;
   border-radius: 20px;
+  /*z-index: -1;*/
+  /*float: left;*/
 }
 
-br {
-line-height: 32px;
+.container4 {
+  opacity: 0.3;
+  position: fixed;
+  left: 500px;
+  text-align: center;
+  /*z-index: -1;*/
+}
+
+
+#box2 {
+  position: relative;
+  top: 60px;
+  background-color: #85C1E9;
+  margin-left: 30px;
+  width: 40vw;
+  height: 40vw;
+  border-radius: 20px;
+  /*z-index: -3;*/
+  /*float: left;*/
 }
