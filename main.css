@@ -151,11 +151,18 @@ line-height: 26px;
 #box {
   background-color: #85C1E9;
   margin-left: 30px;
-  width: 20vw;
-  height: 20vw;
+  width: 22vw;
+  height: 22vw;
   border-radius: 20px;
 }
 
 br {
 line-height: 32px;
+}
+
+button {
+  background-color: black;
+  float: right;
+  position: relative;
+  bottom: 1764px;
 }
